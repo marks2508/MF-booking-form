@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Booking form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <form action="">
+        <h1 class="appointment-title">Book an appointment</h1>
+        <p class="appointment-subtitle">Please complete the form below to book your exclusive The Curator seasonal styling appointment</p>
+        <label class="appointment-labels" for="appointment-type">Please select your appointment type</label>
+        <input type="radio" id="appointment-type" name="phone">
+        <input type="radio" id="appointment-type" name="store">
+        <label class="appointment-labels" for="appointment-type">Phone</label>
+        <label class="appointment-labels" for="appointment-type">Store</label>
+        <label class="appointment-labels" for="appointment-language">Select you preferred consultation language</label>
+        <select id="appointment-language">
+            <option value="Marylebone">Marylebone</option>
+            <option value="Wimbledon">Wimbledon</option>
+            <option value="Carlos Place">Carlos Place</option>
+        </select>
+        <label class="appointment-labels" for="phone-number">Confirm your phone number below</label>
+        <input type="text" id="phone-number">
+        <p></p>
+        <p></p>
+        <table class="appointment-table">
+            <thead class="appointment-table-title">February</thead>
+            <tr class="appointment-table-days">
+                <th>M</th>
+                <th>T</th>
+                <th>W</th>
+                <th>T</th>
+                <th>F</th>
+                <th>S</th>
+                <th>S</th>
+            </tr>
+            <tr class="appointemnt-table-numbers">
+                <th>18</th>
+                <th>19</th>
+                <th>20</th>
+                <th>21</th>
+                <th>22</th>
+                <th>23</th>
+                <th>24</th>
+            </tr>
+        </table>
+        <ul class="appointment-times">
+            <li>09:00</li>
+            <li>10:00</li>
+            <li>11:00</li>
+            <li>12:00</li>
+            <li>13:00</li>
+            <li>14:00</li>
+            <li>15:00</li>
+        </ul>
+        <input type="text" name="requirement" id="requirement"
+            placeholder="Please include any specific requirements you may have such as requiring looks for a special occassion, size and fit advice, preferrable brands or any other requests.">
+        <button class="sumbit-button">Sumbit</button>
+        <p class="terms">By clicking 'SUMBIT' you agree to our<span class="tacs">Privacy Policy and Terms and Conditions</span>
+        </p>
+    </form>
+</body>
+
+</html>
